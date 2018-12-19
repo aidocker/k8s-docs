@@ -40,7 +40,7 @@ helm install --name nginx-ingress --set "controller.service.externalIPs[0]=192.1
 
 浏览器访问 http://192.168.1.232/healthz
 
-![](E:\k8s\ingress\backend-404.png)
+![](..\ingress\backend-404.png)
 
 其他路径都会报 default backend - 404
 
